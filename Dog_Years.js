@@ -8,4 +8,7 @@ const myAge = 55;
 // Declare a flexible variable for early years
 let earlyYears = 2;
 
+// Multiply 'early years' by 10.5 //
+earlyYears *= 10.5;
+
 
