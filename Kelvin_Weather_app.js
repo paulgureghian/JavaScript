@@ -13,4 +13,6 @@ let fahrenheit = celsius * (9/5) + 32;
 
 // Round down Fahrenheit after conversion from Celsius  
 fahrenheit = Math.floor(fahrenheit);  
-    
+
+// Print the temperature in Fahrenheit
+console.log('The temperature is ${fahrenheit} degrees Fahrenheit.');
