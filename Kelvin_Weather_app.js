@@ -17,7 +17,7 @@ fahrenheit = Math.floor(fahrenheit);
 // Print the temperature in Fahrenheit
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
-//  Convert Celsius to Newton
+// Convert Celsius to Newton
 // Declare a flexible variable for converting Celsius to Newton
 let newton = celsius * (33/100);
 
