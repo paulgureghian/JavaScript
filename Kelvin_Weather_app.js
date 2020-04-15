@@ -1,5 +1,5 @@
 // Created by Paul A. Gureghian in April 2020 //
-// This JS app converts Klevin to Celsius then to Fahrenheit //
+// This JS app converts Kelvin to Celsius then to Fahrenheit //
 
 // Declare variables 
 // Declare a constant variable for Kelvin 
