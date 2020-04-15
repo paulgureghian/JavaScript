@@ -15,4 +15,5 @@ let fahrenheit = celsius * (9/5) + 32;
 fahrenheit = Math.floor(fahrenheit);  
 
 // Print the temperature in Fahrenheit
-console.log('The temperature is ${fahrenheit} degrees Fahrenheit.');
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
