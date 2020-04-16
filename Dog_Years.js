@@ -23,3 +23,7 @@ console.log(earlyYears);
 // Print 'laterYears'
 console.log(laterYears);
 
+// Add 'earlyYears' and 'laterYears' 
+let myAgeInDogYears = earlyYears + laterYears;
+
+
