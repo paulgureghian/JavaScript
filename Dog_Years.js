@@ -29,3 +29,6 @@ let myAgeInDogYears = earlyYears + laterYears;
 // My name as a string in LowerCase()
 let myName = "Paul".toLowerCase();
 
+// Print name and age in dog years
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+
