@@ -26,4 +26,6 @@ console.log(laterYears);
 // Add 'earlyYears' and 'laterYears' 
 let myAgeInDogYears = earlyYears + laterYears;
 
+// My name as a string in LowerCase()
+let myName = "Paul".toLowerCase();
 
