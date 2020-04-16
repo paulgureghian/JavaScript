@@ -17,4 +17,9 @@ let laterYears = myAge - 2;
 // Multiply 'laterYears' by 4 
 laterYears *= 4;
 
+// Print 'earlyYears'
+console.log(earlyYears);
+
+// Print 'laterYears'
+console.log(laterYears);
 
