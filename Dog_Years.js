@@ -14,4 +14,7 @@ earlyYears *= 10.5;
 // Subtract 2 from 'myAge' 
 let laterYears = myAge - 2;
 
+// Multiply 'laterYears' by 4 
+laterYears *= 4;
+
 
