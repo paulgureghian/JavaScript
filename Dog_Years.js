@@ -32,3 +32,4 @@ let myName = "Paul".toLowerCase();
 // Print name and age in dog years
 console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
 
+// End of script //
