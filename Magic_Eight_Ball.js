@@ -7,3 +7,6 @@
 let userName = 'Paul';
 
 // Create a ternary expression for 'userName'
+userName ? console.log(`Hello, $userName`)
+: console.log("Hello!");
+
