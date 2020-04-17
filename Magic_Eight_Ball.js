@@ -18,3 +18,7 @@ console.log(`The user ${userName} asked: ${userQuestion}`);
 
 // Generate a random number between 0 and 7
 let randomNumber = Math.floor(Math.random() * 8);
+
+// Declare a flexible variable for 'eightBall'
+let eightBall = '';
+
