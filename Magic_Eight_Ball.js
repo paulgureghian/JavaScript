@@ -14,5 +14,7 @@ userName ? console.log(`Hello, $userName`)
 let userQuestion = "Will I succeed?";
 
 // Print the user's question input
-console.log(`The user asked: ${userQuestion}`);
+console.log(`The user ${userName} asked: ${userQuestion}`);
 
+// Generate a random number between 0 and 7
+let randomNumber = Math.floor(Math.random() * 8);
