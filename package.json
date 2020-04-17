@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "JavaScript Algorithm Scripting and Data Structures.",
+  "main": "Dog_Years.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulgureghian/JavaScript.git"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulgureghian/JavaScript/issues"
+  },
+  "homepage": "https://github.com/paulgureghian/JavaScript#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
