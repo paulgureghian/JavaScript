@@ -11,5 +11,8 @@ userName ? console.log(`Hello, $userName`)
 : console.log("Hello!");
 
 // Declare a felxible variable for 'userQuestion'
-let userQuestion = "Will I suceed?";
+let userQuestion = "Will I succeed?";
+
+// Print the user's question input
+console.log(`The user asked: ${userQuestion}`);
 
