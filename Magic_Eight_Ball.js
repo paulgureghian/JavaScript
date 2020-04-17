@@ -7,7 +7,7 @@
 let userName = 'Paul';
 
 // Create a ternary expression for 'userName'
-userName ? console.log(`Hello, $userName`)
+userName ? console.log(`Hello, ${userName}`)
 : console.log("Hello!");
 
 // Declare a felxible variable for 'userQuestion'
@@ -22,7 +22,7 @@ let randomNumber = Math.floor(Math.random() * 8);
 // Declare a flexible variable for 'eightBall'
 let eightBall = '';
 
-// Create a control flow 
+// Create a control flow with the 'switch' statement
 switch (randomNumber) {
     case 0:
         eightBall = 'It is certain';
@@ -34,10 +34,10 @@ switch (randomNumber) {
         eightBall = 'Reply hazy try again';
         break;
     case 3: 
-        eightBall = "Cannot predict now";
+        eightBall = 'Cannot predict now';
         break;
     case 4: 
-        eightBall = "Do not count on it";
+        eightBall = 'Do not count on it';
         break;
     case 5: 
         eightBall = 'My sources say no';
@@ -50,3 +50,7 @@ switch (randomNumber) {
         break;                             
 }
 
+// Print Magic Eight Ball's answer.
+console.log(eightBall);
+
+// End of script //
