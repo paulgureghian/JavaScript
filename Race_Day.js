@@ -10,3 +10,6 @@ let raceNumber = Math.floor(Math.random() * 1000);
 // The value will be a Boolean. 
 let runnerRegistered = true;
 
+// Declare a flexible variable for the runner's age.
+let runnersAge = 0;
+
