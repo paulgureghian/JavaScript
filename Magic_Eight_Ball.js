@@ -7,9 +7,10 @@
 let userName = "Paul";
 
 // Create a ternary expression for 'userName'
-userName ? console.log(`Hello, ${userName}`)
+userName  
+    ? console.log(`Hello, ${userName}`) 
     : console.log("Hello!");
-
+    
 // Declare a felxible variable for 'userQuestion'
 let userQuestion = "Will I succeed?";
 
