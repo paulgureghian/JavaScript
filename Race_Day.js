@@ -18,3 +18,8 @@ if (runnerRegistered && runnersAge > 18) {
     raceNumber += 1000;
 }  
 
+// Define a control flow statement that checks age and registration time to determine race time.
+if (runnerRegistered && runnersAge > 18) {
+    console.log(`Your race time is 9:30 am and your race number is: ${raceNumber}.`);
+}
+
