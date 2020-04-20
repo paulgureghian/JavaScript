@@ -11,15 +11,19 @@ let raceNumber = Math.floor(Math.random() * 1000);
 let runnerRegistered = true;
 
 // Declare a flexible variable for the runner's age.
-let runnersAge = 0;
+let runnersAge = 20;
 
 // Define a control flow statement that checks whether the runner is an adult AND registered early.
-if (runnerRegistered && runnersAge > 18) {
+if(runnerRegistered && runnersAge > 18) {
     raceNumber += 1000;
 }  
 
 // Define a control flow statement that checks age and registration time to determine race time.
-if (runnerRegistered && runnersAge > 18) {
-    console.log(`Your race time is 9:30 am and your race number is: ${raceNumber}.`);
+if(runnerRegistered && runnersAge > 18) {
+    console.log(`Your race time is 9:30 am, and your race number is: ${raceNumber}.`);
+} 
+else if(!runnerRegistered && runnersAge > 18) {
+    console.log(`Your race time is 11:00 am, and your race number is: ${raceNumber}.`);
 }
+
 
