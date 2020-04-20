@@ -31,3 +31,5 @@ else if(runnersAge < 18){
 else{
     console.log('Please see the registration desk');
 }
+
+// End of script //
