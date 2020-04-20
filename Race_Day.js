@@ -13,3 +13,8 @@ let runnerRegistered = true;
 // Declare a flexible variable for the runner's age.
 let runnersAge = 0;
 
+// Define a control flow statement that checks whether the runner is an adult AND registered early.
+if (runnerRegistered && runnersAge > 18) {
+    raceNumber += 1000;
+}  
+
