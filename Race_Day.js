@@ -14,22 +14,29 @@ let runnerRegistered = true;
 let runnersAge = 20;
 
 // Define a control flow statement that checks whether the runner is an adult AND registered early.
-if(runnerRegistered && runnersAge > 18) {
+if (runnerRegistered && runnersAge > 18) {
+
     raceNumber += 1000;
+
 }  
 
 // Define a control flow statement that checks age and registration time to determine race time.
-if(runnerRegistered && runnersAge > 18) {
+if (runnerRegistered && runnersAge > 18) {
+
     console.log(`Your race time is 9:30 am, and your race number is: ${raceNumber}.`);
-} 
-else if(!runnerRegistered && runnersAge > 18) {
+
+} else if (!runnerRegistered && runnersAge > 18) {
+
     console.log(`Your race time is 11:00 am, and your race number is: ${raceNumber}.`);
-}
-else if(runnersAge < 18){
+
+} else if (runnersAge < 18) {
+
     console.log(`Your race time is 12:30 pm, and your race number is: ${raceNumber}.`);
-} 
-else{
-    console.log('Please see the registration desk');
+
+} else {
+
+    console.log("Please see the registration desk");
+
 }
 
 // End of script //
