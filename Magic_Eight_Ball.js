@@ -10,7 +10,7 @@ let userName = "Paul";
 userName  
     ? console.log(`Hello, ${userName}`) 
     : console.log("Hello!");
-    
+
 // Declare a felxible variable for 'userQuestion'
 let userQuestion = "Will I succeed?";
 
