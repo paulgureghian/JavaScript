@@ -28,4 +28,6 @@ else if(!runnerRegistered && runnersAge > 18) {
 else if(runnersAge < 18){
     console.log(`Your race time is 12:30 pm, and your race number is: ${raceNumber}.`);
 } 
-
+else{
+    console.log('Please see the registration desk');
+}
