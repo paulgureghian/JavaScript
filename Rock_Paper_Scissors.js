@@ -13,3 +13,6 @@ const getUserChoice = (userInput) => {
 }
 
 // Define a 'const' function for computer choice. 
+const getComputerChoice = () => {
+    
+}
