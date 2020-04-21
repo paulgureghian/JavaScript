@@ -3,5 +3,11 @@
 
 // Declare a 'const' function for user choice
 const getUserChoice = (userInput) => {
-    userInput = userInput.toLowerCase();           
+    userInput = userInput.toLowerCase();
+    if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
+        return userInput
+
+    } else {
+        console.log('Error, please type: rock, paper, or scissors.');
+    }          
 }
