@@ -3,5 +3,5 @@
 
 // Declare a 'const' function for user choice
 const getUserChoice = (userInput) => {
-    
+    userInput = userInput.toLowerCase();           
 }
