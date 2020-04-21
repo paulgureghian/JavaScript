@@ -3,16 +3,20 @@
 
 // Define a 'const' function for user choice.
 const getUserChoice = (userInput) => {
-    userInput = userInput.toLowerCase();
-    if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
-        return userInput
 
-    } else {
-        console.log('Error, please type: rock, paper, or scissors.');
-    }          
-}
+    userInput = userInput.toLowerCase();
+    if (userInput === "rock" || userInput === "paper" || userInput === "scissors") {
+
+        return userInput;
+
+    } 
+    console.log("Error, please type: rock, paper, or scissors.");
+              
+};
 
 // Define a 'const' function for computer choice. 
 const getComputerChoice = () => {
+
     const randomNumber = Math.floor(Math.random() * 3);
-}
+
+};
