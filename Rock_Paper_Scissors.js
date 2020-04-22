@@ -33,6 +33,20 @@ const getComputerChoice = () => {
 };
 
 // Define a 'const' function for determining a winner.
-const determineWinner = (getUserChoice, getComputerChoice) => {
-    
-} 
+const determineWinner = (userChoice, computerChoice) => {
+    if (userChoice === computerChoice) {
+        return 'This game is a tie';
+    } 
+    if (userChoice === 'rock') {
+        if (computerChoice === 'paper') {
+            return 'The winner is the computer';
+        } else {
+            return 'The winner is the user';
+        }
+    }
+
+
+
+
+};
+
