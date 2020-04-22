@@ -77,4 +77,3 @@ const determineWinner = (userChoice, computerChoice) => {
     }
 
 };
-
