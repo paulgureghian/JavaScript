@@ -95,3 +95,6 @@ const playGame = () => {
     ));
 
 };
+
+// Call 'playGame()'.
+playGame();
