@@ -98,3 +98,5 @@ const playGame = () => {
 
 // Call 'playGame()'.
 playGame();
+
+// End of script //
