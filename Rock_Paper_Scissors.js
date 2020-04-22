@@ -80,9 +80,13 @@ const determineWinner = (userChoice, computerChoice) => {
 
 // Define a function named 'playGame()' which starts the game.
 const playGame = () => {
-    const userChoice = getUserChoice('paper');
+
+    const userChoice = getUserChoice("paper");
+
     console.log(`The user's choice is: ${userChoice}.`);
 
     const computerChoice = getComputerChoice();
+
     console.log(`The computer's choice is: ${computerChoice}.`);
-}
+
+};
