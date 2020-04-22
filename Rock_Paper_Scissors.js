@@ -31,3 +31,8 @@ const getComputerChoice = () => {
     }
 
 };
+
+// Define a 'const' function for determining a winner.
+const determineWinner = (getUserChoice, getComputerChoice) => {
+    
+} 
