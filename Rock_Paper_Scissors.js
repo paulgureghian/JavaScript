@@ -78,15 +78,3 @@ const determineWinner = (userChoice, computerChoice) => {
 
 };
 
-console.log(determineWinner(
-    "rock",
-    "scissors"
-));
-console.log(determineWinner(
-    "paper",
-    "scissors"
-));
-console.log(determineWinner(
-    "rock",
-    "rock"
-));
