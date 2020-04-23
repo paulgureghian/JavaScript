@@ -39,28 +39,32 @@ const getSleepHours = (day) => {
 };
 
 // Define a function which gets the total actual sleep hours. //
-const getActualSleepHours = () => 
-    getSleepHours('monday') +
-    getSleepHours('tuesday') +
-    getSleepHours('wednesday') +
-    getSleepHours('thursday') +
-    getSleepHours('friday') +
-    getSleepHours('saturday') +
-    getSleepHours('sunday');
+const getActualSleepHours = () => getSleepHours("monday") +
+    getSleepHours("tuesday") +
+    getSleepHours("wednesday") +
+    getSleepHours("thursday") +
+    getSleepHours("friday") +
+    getSleepHours("saturday") +
+    getSleepHours("sunday");
 
-    console.log(getSleepHours('monday'));
-    console.log(getActualSleepHours());
+console.log(getSleepHours("monday"));
+console.log(getActualSleepHours());
 
 // Define a function for ideal sleep hours.
 const getIdealSleepHours = () => {
+
     let idealHours = 8;
+
+    
     return idealHours * 7;
-}    
+
+};    
 
 // Define a function which calculates the sleep debt.
 const calculateSleepDebt = () => {
-const actualSleepHours = getActualSleepHours();
-const idealSleepHours = getIdealSleepHours();
+
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
 
 
 };
