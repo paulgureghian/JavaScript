@@ -36,5 +36,4 @@ const getSleepHours = (day) => {
     
     return "Error";
     
-
 };
