@@ -40,5 +40,11 @@ const getSleepHours = (day) => {
 
 // Define a function which gets the total actual sleep hours. //
 const getActualSleepHours = () => {
-    
+    getSleepHours('monday') +
+    getSleepHours('tuesday') +
+    getSleepHours('wednesday') +
+    getSleepHours('thursday') +
+    getSleepHours('friday') +
+    getSleepHours('saturday') +
+    getSleepHours('sunday');
 }
