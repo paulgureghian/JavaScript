@@ -32,8 +32,13 @@ const getSleepHours = (day) => {
 
         return 6;
     
-    }
-    
+    } 
+        
     return "Error";
-    
+
 };
+
+// Define a function which gets the total actual sleep hours. //
+const getActualSleepHours = () => {
+    
+}
