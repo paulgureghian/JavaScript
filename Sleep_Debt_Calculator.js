@@ -59,5 +59,8 @@ const getIdealSleepHours = () => {
 
 // Define a function which calculates the sleep debt.
 const calculateSleepDebt = () => {
-    
-}
+const actualSleepHours = getActualSleepHours();
+const idealSleepHours = getIdealSleepHours();
+
+
+};
