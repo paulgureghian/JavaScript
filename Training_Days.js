@@ -8,5 +8,7 @@ const getRandEvent = () => {
         return 'Marathon';
     } else if (random === 1) {
         return 'Triathlon';
+    } else if (random === 2) {
+        return 'Pentathlon'
     }
 }
