@@ -51,7 +51,7 @@ const getActualSleepHours = () => {
 
 };
 
-console.log(getActualSleepHours());
+//console.log(getActualSleepHours());
 
 // Define a function for ideal sleep hours.
 const getIdealSleepHours = () => {
