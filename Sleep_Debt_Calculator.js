@@ -83,6 +83,7 @@ const calculateSleepDebt = () => {
 
 };
 
+// Call the 'calculateSleepDebt()'
 calculateSleepDebt();
 
 // End of script //
