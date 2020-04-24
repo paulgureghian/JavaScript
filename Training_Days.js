@@ -11,4 +11,8 @@ const getRandEvent = () => {
     } else if (random === 2) {
         return 'Pentathlon'
     }
+};
+
+const getTrainingDays = () => {
+    
 }
