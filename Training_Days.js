@@ -51,6 +51,7 @@ const name = 'Paul';
 
 // The scope of name is too tight
 const logEvent = (name, event) => {
+    console.log(`${name}'s event is: ${event}`);
 
 }
 
