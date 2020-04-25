@@ -68,3 +68,4 @@ const days = getTrainingDays(event);
 logEvent(name, event);
 logTime(name, days);
 
+// End of script//
