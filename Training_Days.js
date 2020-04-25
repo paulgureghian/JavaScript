@@ -47,6 +47,8 @@ const getTrainingDays = (event) => {
     
 };
 
+const name = 'Paul';
+
 // The scope of name is too tight
 const logEvent = (name, event) => {
 
