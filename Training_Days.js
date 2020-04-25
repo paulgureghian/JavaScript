@@ -29,15 +29,15 @@ const getTrainingDays = (event) => {
 
     if (event === "Marathon") {
 
-         days = 50;
+        days = 50;
     
     } else if (event === "Triathlon") {
 
-         days = 100;
+        days = 100;
     
     } else if (event === "Pentathlon") {
 
-         days = 200;
+        days = 200;
     
     }
 
