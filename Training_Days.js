@@ -20,12 +20,14 @@ const getRandEvent = () => {
     
     }
 
+    return "Error";
+
 };
 
 // The scope of 'days' is too tight
 const getTrainingDays = (event) => {
     
-    let days;
+    let days = 0;
 
     if (event === "Marathon") {
 
