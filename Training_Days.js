@@ -55,7 +55,9 @@ const logEvent = (name, event) => {
 
 }
 
-
+const logTime = (name, days) => {
+    
+}
 
 
 
