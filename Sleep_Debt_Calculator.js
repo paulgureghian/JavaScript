@@ -6,31 +6,31 @@ const getSleepHours = (day) => {
 
     if (day === "monday") {
 
-        return 8;
+        return 57;
     
     } else if (day === "tuesday") {
 
-        return 7;
+        return 0;
     
     } else if (day === "wednesday") {
 
-        return 8;
+        return 0;
     
     } else if (day === "thursday") {
 
-        return 7;
+        return 0;
     
     } else if (day === "friday") {
 
-        return 7;
+        return 0;
     
     } else if (day === "saturday") {
 
-        return 6;
+        return 0;
     
     } else if (day === "sunday") {
 
-        return 6;
+        return 0;
     
     } 
         
@@ -74,15 +74,15 @@ const calculateSleepDebt = () => {
 
     if (actualSleepHours === idealSleepHours) {
 
-        console.log("Paul got the perfect amount of sleep.");
+        console.log("Function call to 'calculateSleepDebt()': Paul got the perfect amount of sleep.");
     
     } else if (actualSleepHours > idealSleepHours) {
 
-        console.log(`Paul got ${idealSleepHours - actualSleepHours} hours more sleep than needed.`);
+        console.log("Function call to 'calculateSleepDebt()':",`Paul got ${actualSleepHours - idealSleepHours} hour(s) more sleep than needed.`);
     
     } else if (actualSleepHours < idealSleepHours) {
 
-        console.log(`Paul should get ${idealSleepHours - actualSleepHours} hours more of sleep.`);
+        console.log(`Paul should get ${idealSleepHours - actualSleepHours} hour(s) more of sleep.`);
     
     }
 
@@ -91,7 +91,6 @@ const calculateSleepDebt = () => {
 };
 
 // Call the 'calculateSleepDebt()'
-console.log("Function call to 'calculateSleepDebt()': ");
 calculateSleepDebt();
 
 // End of script //
