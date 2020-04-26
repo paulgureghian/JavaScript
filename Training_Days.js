@@ -68,4 +68,25 @@ const days = getTrainingDays(event);
 logEvent(name, event);
 logTime(name, days);
 
+
+
+const event_2 = getRandEvent();
+const days_2 = getTrainingDays(event_2);
+
+const name_2 = 'Jack';
+
+logEvent(name, event_2);
+logTime(name, days_2);
+
+
+
+
+
+
+
+
+
+
+
+
 // End of script//
