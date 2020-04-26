@@ -1,7 +1,7 @@
-// Created by Paul A. Gureghian in April 2020 //
-// This JS project app calculates the amount of sleep you get each week //
+// Created by Paul A. Gureghian in April 2020. //
+// This JS project app calculates the amount of sleep you get each week. //
 
-// Define a function which calculates the amount of sleep in any given night.
+// Define a function which calculates the amount of sleep in any given night. //
 const getSleepHours = (day) => {
 
     if (day === "monday") {
@@ -39,7 +39,10 @@ const getSleepHours = (day) => {
 };
 
 // Define a function which gets the total actual sleep hours. //
-const getActualSleepHours = () => getSleepHours("monday") +
+const getActualSleepHours = () => 
+
+    getSleepHours("monday") +
+    
     getSleepHours("tuesday") +
     
     getSleepHours("wednesday") +
@@ -54,7 +57,7 @@ const getActualSleepHours = () => getSleepHours("monday") +
 
 console.log(`Function call to 'getActualSleepHours()': ${getActualSleepHours()} actual hours is the output.`, "\n");
 
-// Define a function for ideal sleep hours.
+// Define a function for ideal sleep hours. //
 const getIdealSleepHours = () => {
 
     let idealHours = 8;
@@ -65,7 +68,7 @@ const getIdealSleepHours = () => {
 
 console.log(`Function call to 'getIdealSleepHours()': ${getIdealSleepHours()} is the ideal number of sleep hours.`, "\n");    
 
-// Define a function which calculates the sleep debt.
+// Define a function which calculates the sleep debt. //
 const calculateSleepDebt = () => {
 
     const actualSleepHours = getActualSleepHours();
@@ -90,7 +93,7 @@ const calculateSleepDebt = () => {
 
 };
 
-// Call the 'calculateSleepDebt()'
+// Call the 'calculateSleepDebt()'. //
 calculateSleepDebt();
 
-// End of script //
+// End of script. //
