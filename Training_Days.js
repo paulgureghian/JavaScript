@@ -75,8 +75,8 @@ const days_2 = getTrainingDays(event_2);
 
 const name_2 = 'Jack';
 
-logEvent(name, event_2);
-logTime(name, days_2);
+logEvent(name_2, event_2);
+logTime(name_2, days_2);
 
 
 
