@@ -52,41 +52,47 @@ const name = "Paul";
 // The scope of name is too tight
 const logEvent = (name, event) => {
 
-    console.log(`${name}'s event is: ${event}`);
+    console.log(
+        `${name}'s event is: ${event}.`,
+        "\n"
+    );
 
 };
 
 const logTime = (name, days) => {
 
-    console.log(`${name}'s time to train is: ${days} days`);
+    console.log(
+        `${name}'s time to train is: ${days} days.`,
+        "\n"
+    );
 
 };
 
 const event = getRandEvent();
 const days = getTrainingDays(event);
 
-logEvent(name, event);
-logTime(name, days);
+logEvent(
+    name,
+    event
+);
+logTime(
+    name,
+    days
+);
 
 
+const event2 = getRandEvent();
+const days2 = getTrainingDays(event2);
 
-const event_2 = getRandEvent();
-const days_2 = getTrainingDays(event_2);
+const name2 = "Jack";
 
-const name_2 = 'Jack';
-
-logEvent(name_2, event_2);
-logTime(name_2, days_2);
-
-
-
-
-
-
-
-
-
-
-
+logEvent(
+    name2,
+    event2
+);
+logTime(
+    name2,
+    days2
+);
 
 // End of script//
