@@ -1,16 +1,17 @@
-// Created by Paul A. Gureghian in April 2020 //
-// This JS projct app sends a message about Training Days events //
+// Created by Paul A. Gureghian in April 2020. //
+// This JS projct app sends a message about athletic events and the number days training needed. //
 
-// The scope of 'random' is too loose
+// Declare a variable to store a random number between 0 and 2. //
 const random = Math.floor(Math.random() * 3);
 
+// Define a function to generate a random event. //
 const getRandEvent = () => {
 
     if (random === 0) {
 
         return "Marathon";
     
-    } else if (random === 1) {
+    } else if (random === 1) {                                                 
 
         return "Triathlon";
     
@@ -24,7 +25,7 @@ const getRandEvent = () => {
 
 };
 
-// The scope of 'days' is too tight
+// Define a function to determine the number of training days for an event. //
 const getTrainingDays = (event) => {
     
     let days = 0;
@@ -47,35 +48,51 @@ const getTrainingDays = (event) => {
     
 };
 
+// Declare a variable to store names. //
 const name = "Paul";
 
-// The scope of name is too tight
+// Define a function to print the athlete's name and event. //
 const logEvent = (name, event) => {
 
     console.log(`${name}'s event is: ${event}.`, "\n");        
     
 };
 
+// Define a function to print the athlete's name and number of training days for the event. //
 const logTime = (name, days) => {
 
     console.log(`${name}'s time to train is: ${days} days.`, "\n");   
 
 };
 
+// Function call to 'getRandEvent()'. //
 const event = getRandEvent();
+
+// Function call to 'getTrainingDays()'. //
 const days = getTrainingDays(event);
 
+// Function call to 'logEvent()'. //
 logEvent(name, event);   
+
+// Function call to 'logTime()'. //
 logTime(name, days);
       
 
-// Second runner
+// Second athlete's event and training days. //
+
+// Function call to 'getRandEvent(). //
 const event2 = getRandEvent();
+
+// Function call to 'getTrainingDays(). //
 const days2 = getTrainingDays(event2);
 
+// Declare a variable to store names. //
 const name2 = "Jack";
 
+// Function call to 'logEvent()'. // 
 logEvent(name2, event2);  
+
+// Function call to 'logTime()'. //
 logTime(name2, days2);
         
-// End of script//
+// End of script. //
