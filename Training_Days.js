@@ -1,11 +1,11 @@
 // Created by Paul A. Gureghian in April 2020. //
 // This JS projct app sends a message about athletic events and the number days training needed. //
 
-// Declare a variable to store a random number between 0 and 2. //
-const random = Math.floor(Math.random() * 3);
-
 // Define a function to generate a random event. //
 const getRandEvent = () => {
+
+    // Declare a variable to store a random number between 0 and 2. //
+    const random = Math.floor(Math.random() * 3);
 
     if (random === 0) {
 
