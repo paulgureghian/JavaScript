@@ -80,14 +80,14 @@ logTime(name, days);
 
 // Second athlete's event and training days. //
 
+// Declare a variable to store names. //
+const name2 = "Jack";
+
 // Function call to 'getRandEvent(). //
 const event2 = getRandEvent();
 
 // Function call to 'getTrainingDays(). //
 const days2 = getTrainingDays(event2);
-
-// Declare a variable to store names. //
-const name2 = "Jack";
 
 // Function call to 'logEvent()'. // 
 logEvent(name2, event2);  
