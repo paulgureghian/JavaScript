@@ -53,7 +53,8 @@ const name = "Paul";
 
 // Define a function to print the athlete's name and event. //
 const logEvent = (name, event) => {
-
+    
+    console.log("Function call to 'logEvent()':");
     console.log(`${name}'s event is: ${event}.`, "\n");        
     
 };
@@ -61,6 +62,7 @@ const logEvent = (name, event) => {
 // Define a function to print the athlete's name and number of training days for the event. //
 const logTime = (name, days) => {
 
+    console.log("Function call to 'logTime()':");
     console.log(`${name}'s time to train is: ${days} days.`, "\n");   
 
 };
