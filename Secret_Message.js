@@ -20,4 +20,4 @@ console.log("The length of the array after element removed:", secretMessage.leng
 // Add string elements with the '.push()' array method. //
 secretMessage.push('to', 'Program');
 
-// 
+//  Print the array and length. //
