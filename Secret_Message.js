@@ -7,4 +7,6 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
                      'you', 'can', 'figure', 'out', '-2015', 'Chris', 'Pine', 'Learn', 'JavaScript'];
                     
 // Remove the last string element with an array method. //
-secretMessage.pop();  
+secretMessage.pop();
+
+// Print the array. //
