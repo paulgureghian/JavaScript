@@ -46,3 +46,7 @@ console.log("The length of the new array after adding a new string to the beginn
 
 // Use the array method '.splice()' to remove strings and replace them with a new string. //
 secretMessage.splice(6, 5, "know");
+
+// Print the new array and length. //
+console.log("The new array after removing the strings and adding a new string is:", secretMessage, "\n");
+console.log("The length of the new array after removing the strings and adding a new string is:", secretMessage.length, 'elements.', "\n");
