@@ -10,9 +10,11 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
 console.log("The array:", secretMessage, "\n");                     
 console.log("The length of the original array:", secretMessage.length, 'elements.', "\n");
 
-// Remove the last string element with an array method. //
+// Remove the last string element with the '.pop()' array method. //
 secretMessage.pop();
 
 // Print the array and length. //
 console.log("The array after last element removed:", secretMessage, "\n");
 console.log("The length of the array after element removed:", secretMessage.length, 'elements.');
+
+// Add string elements with the '.push()' array method. //
