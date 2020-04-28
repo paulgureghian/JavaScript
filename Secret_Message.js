@@ -16,4 +16,3 @@ secretMessage.pop();
 // Print the array and length. //
 console.log("The array after last element removed:", secretMessage, "\n");
 console.log("The length of the array after element removed:", secretMessage.length, 'elements.');
-
