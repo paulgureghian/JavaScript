@@ -40,3 +40,6 @@ console.log("The length of the array after the element is removed is:", secretMe
 // Use the array method '.unshift()' to add a string element to the beginning of the array. //
 secretMessage.unshift('Programming');
 
+// Print the new array and length. //
+console.log("The new array after adding a new string to the beginning of the array is:", secretMessage, "\n");
+console.log("The length of the new array after after adding a new string to the beginning is:", secretMessage.length, 'elements', "\n");
