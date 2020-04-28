@@ -4,7 +4,7 @@
 // Define an array of strings. //
 let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
                      'easily', 'the', 'first', 'time', 'it', 'is', 'about', 'what',
-                     'you', 'can', 'figure', 'out.', '-2015', 'Chris', 'Pine', 'Learn', 'JavaScript'];
+                     'you', 'can', 'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
 
 // Print the array and length. //                     
 console.log("The original array:", secretMessage, "\n");                     
