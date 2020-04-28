@@ -42,4 +42,7 @@ secretMessage.unshift('Programming');
 
 // Print the new array and length. //
 console.log("The new array after adding a new string to the beginning of the array is:", secretMessage, "\n");
-console.log("The length of the new array after after adding a new string to the beginning is:", secretMessage.length, 'elements', "\n");
+console.log("The length of the new array after adding a new string to the beginning is:", secretMessage.length, 'elements.', "\n");
+
+// Use the array method '.splice()' to remove strings and replace them with a new string. //
+secretMessage.splice(6, 5, "know");
