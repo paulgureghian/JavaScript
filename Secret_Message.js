@@ -28,5 +28,8 @@ console.log("The length of the array after elements are added is:", secretMessag
 secretMessage[7] = 'right';
 
 // Print the array after an element is changed. //
-console.log("The new array after the element is changed is:", secretMessage);
+console.log("The new array after the element is changed is:", secretMessage, "\n");
+
+// Use the .shift() array method to remove the first element. //
+secretMessage.shift();
 
