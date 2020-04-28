@@ -53,6 +53,6 @@ console.log("The length of the new array after removing the strings and adding a
 
 // Use the '.join()' array method and print the Secret Message as a sentence. //
 console.log("Use the '.join()' array method to join the secret message array as a sentence.", "\n");
-console.log("The secret message is:", secretMessage.join(' '), '.');
+console.log("The secret message is:", secretMessage.join(' '));
 
 // End of Script. //
