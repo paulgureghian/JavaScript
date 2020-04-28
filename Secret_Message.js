@@ -5,9 +5,12 @@
 let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
                      'easily', 'the', 'first', 'time', 'it', 'is', 'about', 'what',
                      'you', 'can', 'figure', 'out', '-2015', 'Chris', 'Pine', 'Learn', 'JavaScript'];
-                    
+
+// Print the array. //                     
+console.log("The array:", secretMessage, "\n");                     
+
 // Remove the last string element with an array method. //
 secretMessage.pop();
 
 // Print the array. //
-console.log("The array after last element removed", secretMessage);
+console.log("The array after last element removed:", secretMessage, "\n");
