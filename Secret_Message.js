@@ -18,3 +18,6 @@ console.log("The array after last element removed:", secretMessage, "\n");
 console.log("The length of the array after element removed:", secretMessage.length, 'elements.');
 
 // Add string elements with the '.push()' array method. //
+secretMessage.push('to', 'Program');
+
+// 
