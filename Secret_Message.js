@@ -10,3 +10,4 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
 secretMessage.pop();
 
 // Print the array. //
+console.log("The array after last element removed", secretMessage);
