@@ -25,3 +25,5 @@ console.log("The new array after elements are added:", secretMessage, "\n");
 console.log("The length of the array after elements are added is:", secretMessage.length, 'elements.', "\n");
     
 // Change an element by accessing its index position and replace it. //
+secretMessage[7] ='right';
+
