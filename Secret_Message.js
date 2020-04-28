@@ -33,3 +33,6 @@ console.log("The new array after the element is changed is:", secretMessage, "\n
 // Use the .shift() array method to remove the first element. //
 secretMessage.shift();
 
+// Print the new array and length. //
+console.log("The new array after the element is removed is:", secretMessage);
+console.log("The length of the array after the element is removed is:", secretMessage.length, 'elements.', "\n");
