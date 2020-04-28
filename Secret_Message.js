@@ -34,5 +34,9 @@ console.log("The new array after the element is changed is:", secretMessage, "\n
 secretMessage.shift();
 
 // Print the new array and length. //
-console.log("The new array after the element is removed is:", secretMessage);
+console.log("The new array after the element is removed is:", secretMessage, "\n");
 console.log("The length of the array after the element is removed is:", secretMessage.length, 'elements.', "\n");
+
+// Use the array method '.unshift()' to add a string element to the beginning of the array. //
+secretMessage.unshift('Programming');
+
