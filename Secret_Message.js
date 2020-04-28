@@ -4,7 +4,7 @@
 // Define an array of strings. //
 let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
                      'easily', 'the', 'first', 'time', 'it', 'is', 'about', 'what',
-                     'you', 'can', 'figure', 'out', '-2015', 'Chris', 'Pine', 'Learn', 'JavaScript'];
+                     'you', 'can', 'figure', 'out.', '-2015', 'Chris', 'Pine', 'Learn', 'JavaScript'];
 
 // Print the array and length. //                     
 console.log("The original array:", secretMessage, "\n");                     
@@ -18,7 +18,7 @@ console.log("The array after the last element is removed:", secretMessage, "\n")
 console.log("The length of the array after the element is removed is:", secretMessage.length, 'elements.', "\n");
 
 // Add string elements with the '.push()' array method. //
-secretMessage.push('to', 'Program');
+secretMessage.push('to', 'Program.');
 
 //  Print the array and length. //
 console.log("The new array after elements are added:", secretMessage, "\n");
