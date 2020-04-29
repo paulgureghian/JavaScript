@@ -7,4 +7,5 @@
 // Declare a variable to store the input phrase. //
 const input = "JavaScript 'For Loops' ";
 
+// Declare a variable to store an array of vowels. //
 
