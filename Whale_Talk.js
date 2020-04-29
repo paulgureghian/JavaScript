@@ -14,8 +14,9 @@ const vowels = ["a", "e", "i", "o", "u"];
 let resultArray = [];
 
 // Create a 'for loop' to iterate through the input string and vowel array. //
+console.log("The output of inputIndex is:", "\n")
 for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
 
-    console.log(inputIndex);
+    console.log(inputIndex, "\n");
 
 } 
