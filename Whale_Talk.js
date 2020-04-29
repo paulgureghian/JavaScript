@@ -19,4 +19,8 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
 
     console.log(inputIndex, "\n");
 
+    // Nested 'for loop' to iterate through the 'vowels' array. //
+    for (let vowel = 0; vowel < vowels.length; vowel++) {
+        
+    }
 } 
