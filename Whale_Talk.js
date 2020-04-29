@@ -9,3 +9,5 @@ const input = "JavaScript 'For Loops' ";
 
 // Declare a variable to store an array of vowels. //
 const vowels = ["a", "e", "i", "o", "u"];
+
+// Declare a variable to store the vowels from the input. //
