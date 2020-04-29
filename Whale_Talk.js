@@ -12,3 +12,6 @@ const vowels = ["a", "e", "i", "o", "u"];
 
 // Declare a variable to store the vowels from the input. //
 let resultArray = [];
+
+// Create a 'for loop' to iterate through the input string and vowel array. //
+ 
