@@ -5,7 +5,7 @@
 // Start of script. //
 
 // Declare a variable to store the input phrase. //
-const input = "JavaScript 'For Loops' ";
+const input = "JavaScript uses 'For Loops' ";
 
 // Declare a variable to store an array of vowels. //
 const vowels = ["a", "e", "i", "o", "u"];
@@ -22,7 +22,25 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
     // Nested 'for loop' to iterate through the 'vowels' array. //
     for (let vowel = 0; vowel < vowels.length; vowel++) {
 
-    //console.log("vowel =", vowel, "\n");
+        if (input[inputIndex] === vowels[vowel]) {
+
+            if (input[inputIndex] === 'e') {
+
+                resultArray.push('ee');
+            }
+            else if (input[inputIndex] === 'u') {
+                resultArray.push('uu');
+            }  
+
+            else {
+                resultArray.push(input[inputIndex]);
+            }
+        } 
+    
+    
+        //console.log("vowel =", vowel, "\n");
     
  }
 } 
+
+console.log(resultArray.join("").toUpperCase());
