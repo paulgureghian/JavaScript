@@ -5,4 +5,6 @@
 // Start of script. //
 
 // Declare a variable to store the input phrase. //
+const input = "JavaScript 'For Loops' ";
+
 
