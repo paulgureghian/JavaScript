@@ -5,45 +5,47 @@
 // Start of script. //
 
 // Declare a variable to store the input phrase. //
-const input = "JavaScript uses 'For Loops' ";
+const humanInput = "JavaScript uses 'For Loops'";
 
 // Declare a variable to store an array of vowels. //
 const vowels = ["a", "e", "i", "o", "u"];
 
 // Declare a variable to store the vowels from the input. //
-let resultArray = [];
+let whaleTalkArray = [];
 
 // Create a 'for loop' to iterate through the input string and vowel array. //
-console.log("The output of inputIndex and vowel is:", "\n");
-for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
+console.log("The output of inputIndex and vowelIndex is:", "\n");
+for (let humanInputIndex = 0; humanInputIndex < humanInput.length; humanInputIndex++) {
 
-    // console.log("inputIndex =", inputIndex, "\n");
+    console.log("The index position of each character in the human input string are:");
+     console.log("humanInputIndex =", humanInputIndex, "\n");
 
     // Nested 'for loop' to iterate through the 'vowels' array. //
-    for (let vowel = 0; vowel < vowels.length; vowel++) {
+    for (let vowelIndex = 0; vowelIndex < vowels.length; vowelIndex++) {
 
-        if (input[inputIndex] === vowels[vowel]) {
+        if (humanInput[humanInputIndex] === vowels[vowelIndex]) {
 
-            if (input[inputIndex] === 'e') {
+            if (humanInput[humanInputIndex] === 'e') {
 
-                resultArray.push('ee');
+                whaleTalkArray.push('ee');
             
-            } else if (input[inputIndex] === 'u') {
+            } else if (humanInput[humanInputIndex] === 'u') {
                
-                resultArray.push('uu');
+                whaleTalkArray.push('uu');
             
             } else {
                 
-                resultArray.push(input[inputIndex]);
+                whaleTalkArray.push(humanInput[humanInputIndex]);
             
             }                        
         } 
+         console.log("The index position of the vowels array are:");   
+         console.log("vowelIndex =", vowelIndex, "\n");
     
-        // console.log("vowel =", vowel, "\n");
-    
- }
+ } 
 } 
 
-console.log(resultArray.join("").toUpperCase());
+console.log("After the 'whaleTalkArray' is populated, the commas are removed and the characters are capitalized.");
+console.log(whaleTalkArray.join("").toUpperCase());
 
 // End of script. //
