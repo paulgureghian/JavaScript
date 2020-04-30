@@ -4,6 +4,9 @@
 
 // Start of script. //
 
+console.log("Through the use of 'for loops' in JS, human talk will be translated to whale talk.", "\n");
+console.log("The human talk used will be: 'JavaScript uses 'for loops'.", "\n");
+
 // Declare a variable to store the input phrase. //
 const humanInput = "JavaScript uses 'For Loops'";
 
@@ -45,7 +48,7 @@ for (let humanInputIndex = 0; humanInputIndex < humanInput.length; humanInputInd
  } 
 } 
 
-console.log("After the 'whaleTalkArray' is populated, the commas are removed and the characters are capitalized.");
-console.log(whaleTalkArray.join("").toUpperCase());
+console.log("After the 'whaleTalkArray' is populated, the commas are removed and the characters are capitalized.", "\n");
+console.log("The human talk translated to whale talk is:", whaleTalkArray.join("").toUpperCase());
 
 // End of script. //
