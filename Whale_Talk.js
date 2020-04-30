@@ -17,7 +17,7 @@ let resultArray = [];
 console.log("The output of inputIndex and vowel is:", "\n");
 for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
 
-    //console.log("inputIndex =", inputIndex, "\n");
+    // console.log("inputIndex =", inputIndex, "\n");
 
     // Nested 'for loop' to iterate through the 'vowels' array. //
     for (let vowel = 0; vowel < vowels.length; vowel++) {
@@ -38,7 +38,7 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
         } 
     
     
-        //console.log("vowel =", vowel, "\n");
+        // console.log("vowel =", vowel, "\n");
     
  }
 } 
