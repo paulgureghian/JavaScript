@@ -52,7 +52,7 @@ for (let humanInputIndex = 0; humanInputIndex < humanInput.length; humanInputInd
 
 // Print the 'whaleTalk' array after it's been populated without formatting. //
 console.log("The 'whaleTalk' array before formatting:", "\n");
-console.log(whaleTalkArray);
+console.log(whaleTalkArray, "\n");
 
 // Print the 'WhaleTalk' array after it has been joined and capitalized. //
 console.log("After the 'whaleTalkArray' is populated, the commas are removed and the characters are capitalized.", "\n");
