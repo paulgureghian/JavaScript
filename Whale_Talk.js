@@ -50,6 +50,10 @@ for (let humanInputIndex = 0; humanInputIndex < humanInput.length; humanInputInd
  } 
 } 
 
+// Print the 'whaleTalk' array after it's been populated without formatting. //
+console.log("The 'whaleTalk' array before formatting:", "\n");
+console.log(whaleTalkArray);
+
 // Print the 'WhaleTalk' array after it has been joined and capitalized. //
 console.log("After the 'whaleTalkArray' is populated, the commas are removed and the characters are capitalized.", "\n");
 console.log("The human talk translated to whale talk is:", whaleTalkArray.join("").toUpperCase());
