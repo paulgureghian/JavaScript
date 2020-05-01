@@ -18,7 +18,7 @@ const vowels = ["a", "e", "i", "o", "u"];
 let whaleTalkArray = [];
 
 // Create a 'for loop' to iterate through the human input string . //
-console.log("The output of humanInputIndex and vowelIndex is:", "\n");
+console.log("The outputs of humanInputIndex and vowelIndex are:", "\n");
 for (let humanInputIndex = 0; humanInputIndex < humanInput.length; humanInputIndex++) {
 
   console.log("The index position of each character in the human input string are:");
