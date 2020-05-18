@@ -5,3 +5,6 @@
 // Start of program. //
 
 // Create an object named "menu". //
+const menu = {
+    
+};
