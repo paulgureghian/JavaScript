@@ -6,5 +6,9 @@
 
 // Create an object named "menu". //
 const menu = {
-    
+  
+    _courses: {
+        
+    },
+
 };
