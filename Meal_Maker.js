@@ -26,5 +26,16 @@ const menu = {
         return this._courses.desserts;
     },
 
+    set appetizers(appetizers) {
+        this._courses.appetizers = appetizers;
+    },
+
+    set mains(mains) {
+        this._courses.mains = mains;
+    },
+
+    set desserts(desserts) {
+        this._courses.desserts = desserts;
+    },
 
 };
