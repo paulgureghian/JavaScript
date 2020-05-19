@@ -60,6 +60,10 @@ const menu = {
     
     },
 
+    getRandomDishFromCourse(courseName) {
+
+
+    },
 
 
 
