@@ -48,6 +48,21 @@ const menu = {
         
         };    
     },
+
+    addDishToCourse(courseName, dishName, dishPrice) {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
 };
 
 
