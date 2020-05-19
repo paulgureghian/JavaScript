@@ -50,8 +50,15 @@ const menu = {
     },
 
     addDishToCourse(courseName, dishName, dishPrice) {
-        
-    }
+
+        const dish = {
+            name:  dishName,
+            price: dishPrice, 
+        };
+    
+        return this._courses[courseName].push(dish);
+    
+    },
 
 
 
