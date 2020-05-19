@@ -39,8 +39,15 @@ const menu = {
     },
 
     get courses() {
+
+        return {
+
+            appetizers: this.appetizers,
+            mains: this.mains,
+            desserts: this.desserts,
         
-    }
-
-
+        };    
+    },
 };
+
+
