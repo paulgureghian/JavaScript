@@ -76,7 +76,7 @@ const menu = {
         const dessert = this.getRandomDishFromCourse('desserts');
         const totalPrice = appetizer.price + main.price + dessert.price;
         
-        return `Your meal is ${appetizer.name}, ${main.name}, and ${dessert.name}, and the total price is ${totalPrice}`;
+        return `Your meal is: ${appetizer.name}, ${main.name}, and ${dessert.name}, and the total price is ${totalPrice}`;
                                                                   
     }
 };
@@ -96,7 +96,8 @@ menu.addDishToCourse('desserts', 'pie', 3.50);
 
 // Call 'menu' object method 'generateRandomMeal()'. //
 const meal = menu.generateRandomMeal();
-
+console.log("\n");
+console.log("Run the program and generate a random three-course meal:", "\n");
 console.log(meal);
 
 // End of program. //
