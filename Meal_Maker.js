@@ -11,7 +11,7 @@ const menu = {
       
         "appetizers": [],
         "mains": [],
-        "desserts": []
+        "desserts": [],
     },
 
     get "appetizers"() {
@@ -65,7 +65,7 @@ const menu = {
         const dishes = this._courses[courseName];
         const randomIndex = Math.floor(Math.random() * dishes.length); 
         
-return dishes[randomIndex]; 
+        return dishes[randomIndex]; 
 
     },
     
@@ -76,7 +76,8 @@ return dishes[randomIndex];
         const dessert = this.getRandomDishFromCourse('desserts');
         const totalPrice = appetizer.price + main.price + dessert.price;
         
-        return "Your meal is ${appetizer.name}, ${main.name}, and ${dessert.name}, and the total price is ${totalPrice}";
+        return `Your meal is ${appetizer.name}, ${main.name}, and ${dessert.name}, and the total price is ${totalPrice}`;
+                                                                  
     }
 };
 
