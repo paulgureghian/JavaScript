@@ -91,3 +91,8 @@ menu.addDishToCourse('desserts', 'ice cream', 3.00);
 menu.addDishToCourse('desserts', 'cake', 4.50);
 menu.addDishToCourse('desserts', 'pie', 3.50);
 
+// Call 'menu' object method 'generateRandomMeal()'. //
+const meal = menu.generateRandomMeal();
+console.log(meal);
+
+// End of program. //
