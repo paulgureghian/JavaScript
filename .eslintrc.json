@@ -36,7 +36,7 @@
             "always"
         ],
         "class-methods-use-this": "error",
-        "comma-dangle": "error",
+        "comma-dangle": "off",
         "comma-spacing": "error",
         "comma-style": "error",
         "complexity": "error",
@@ -250,7 +250,7 @@
         "sort-keys": "off",
         "sort-vars": "error",
         "space-before-blocks": "error",
-        "space-before-function-paren": "error",
+        "space-before-function-paren": "off",
         "space-in-parens": [
             "error",
             "never"
