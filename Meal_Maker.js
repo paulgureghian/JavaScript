@@ -78,3 +78,16 @@ const menu = {
     }
 };
 
+// Add dishes to courses. //
+menu.addDishToCourse('appetizers', 'salad', 4.00);
+menu.addDishToCourse('appetizers', 'wings', 4.50);
+menu.addDishToCourse('appetiizers', 'fries', 5.00);
+
+menu.addDishToCourse('mains', 'steak', 10.25);
+menu.addDishToCourse('mains', 'salmon', 7.75);
+menu.addDishToCourse('mains', 'pasta', 11.20);
+
+menu.addDishToCourse('desserts', 'ice cream', 3.00);
+menu.addDishToCourse('desserts', 'cake', 4.50);
+menu.addDishToCourse('desserts', 'pie', 3.50);
+
