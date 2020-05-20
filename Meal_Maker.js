@@ -96,6 +96,7 @@ menu.addDishToCourse('desserts', 'pie', 3.50);
 
 // Call 'menu' object method 'generateRandomMeal()'. //
 const meal = menu.generateRandomMeal();
+
 console.log("\n");
 console.log("Run the program and generate a random three-course meal:", "\n");
 console.log(meal);
