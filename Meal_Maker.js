@@ -84,7 +84,7 @@ const menu = {
 // Add dishes to courses. //
 menu.addDishToCourse('appetizers', 'salad', 4.00);
 menu.addDishToCourse('appetizers', 'wings', 4.50);
-menu.addDishToCourse('appetiizers', 'fries', 5.00);
+menu.addDishToCourse('appetizers', 'fries', 5.00);
 
 menu.addDishToCourse('mains', 'steak', 10.25);
 menu.addDishToCourse('mains', 'salmon', 7.75);
