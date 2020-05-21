@@ -74,8 +74,9 @@ const menu = {
         const appetizer = this.getRandomDishFromCourse('appetizers');
         const main = this.getRandomDishFromCourse('mains');
         const dessert = this.getRandomDishFromCourse('desserts');
-        const totalPrice = appetizer.price + main.price + dessert.price;
-        
+        const totalPrice1 = appetizer.price + main.price + dessert.price;
+        const totalPrice = totalPrice1.toFixed(2);
+
         return `Your meal is: ${appetizer.name}, ${main.name}, and ${dessert.name}, and the total price is $${totalPrice}`;
                                                                   
     }
