@@ -7,6 +7,11 @@
 const team = {
 
     // Add object properties. //
-    
+    _players: [
+        {firstName: "James", lastName: "Worthy", age: 25},
+        {firstName: "Kobe", lastName: "Bryant", age: 30},
+        {firstName: "Jerry", lastName: "West", age:32}
+    ],
+    _games: []
 
-}
+};
