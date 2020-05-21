@@ -4,4 +4,9 @@
 // Start of program. //
 
 // Create a 'team' object. //
+const team = {
 
+    // Add object properties. //
+    
+
+}
