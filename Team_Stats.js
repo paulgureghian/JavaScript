@@ -19,6 +19,12 @@ const team = {
     ],
 
     // Create getter methods for the keys. //
-    
+    get() {
+        return this._players;
+    },
+
+    get() {
+        return this._games;
+    }
 
 };
