@@ -27,8 +27,8 @@ const team = {
         return this._games;
     },
 
-    // Add an 'addPlayer' method. //
-    
+    // Add an 'addPlayer' method. ///
+
 
 
 
