@@ -55,6 +55,8 @@ team.addPlayer("Luke", "Walton", 30);
 team.addPlayer("Larry", "Bird", 32); 
 
 // Print the 'players' array. //
+console.log("\n");
+console.log("Print the players array:", "\n");
 console.log(team.players);
 
 // Call the 'addGame(). //
@@ -63,6 +65,8 @@ team.addGame("Heat", 122, 136);
 team.addGame("Warriors", 155, 138);
 
 // Print the 'games' array. //
+console.log("\n");
+console.log("Print the games array:", "\n");
 console.log(team.games); 
 
 // End of program. //
