@@ -205,8 +205,8 @@
         "nonblock-statement-body-position": "error",
         "object-curly-newline": "error",
         "object-curly-spacing": "error",
-        "object-property-newline": "error",
-        "object-shorthand": "error",
+        "object-property-newline": "off",
+        "object-shorthand": "off",
         "one-var": "off",
         "one-var-declaration-per-line": "error",
         "operator-assignment": [
@@ -229,7 +229,7 @@
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "quote-props": "error",
+        "quote-props": "off",
         "quotes": [
             "off",
             "double"
