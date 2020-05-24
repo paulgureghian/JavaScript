@@ -35,29 +35,11 @@ const team = {
            age: age
        },
        this.players.push(player);
-    } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 };
+
+team.addPlayer("Norm", "Nixon", 28);
+team.addPlayer("Luke", "Walton", 30);
+team.addPlayer("Larry", "Bird", 32); 
+
+console.log(team.players);
