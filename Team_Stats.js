@@ -41,7 +41,7 @@ const team = {
       
       const game = {
         opponent: oppName,
-        points: points,
+        teamPoints: points,
         opponentPoints: oppPoints
       };
       
