@@ -19,16 +19,23 @@ const team = {
     ],
 
     // Create getter methods for the keys. //
-    get() {
+    get players() {
         return this._players;
     },
 
-    get() {
+    get games() {
         return this._games;
     },
 
     // Add an 'addPlayer' method. ///
-
+    addPlayer(firstName, lastName, age) {
+       let player = {
+           firstName: firstName,
+           lastName: lastName,
+           age: age
+       },
+       this.players.push(player);
+    } 
 
 
 
