@@ -39,7 +39,7 @@ const team = {
         return this._games;
     },
 
-    // Add an 'addPlayer' method. ///
+    // Add an 'addPlayer' method. //
     addPlayer(firstName, lastName, age) {
        let player = {
            firstName,
@@ -48,7 +48,16 @@ const team = {
        };
 
        this.players.push(player);
-    }
+    },
+
+    // Add an 'addGame' method. //
+    
+
+
+
+
+
+
 };
 
 team.addPlayer("Norm", "Nixon", 28);
