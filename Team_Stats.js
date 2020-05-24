@@ -33,7 +33,7 @@ const team = {
            firstName: firstName,
            lastName: lastName,
            age: age
-       },
+       };
        this.players.push(player);
     }
 };
