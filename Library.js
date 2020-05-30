@@ -6,5 +6,8 @@
 // Create a parent class. //
 
 class Media {
-    
+
+    constructor(title) {
+        
+    }
 }
