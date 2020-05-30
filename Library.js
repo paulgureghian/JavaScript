@@ -13,12 +13,18 @@ class Media {
         this._ratings = [];
     }
 
+    // Create getters. //
     get title() {
       return this._title; 
     } 
 
+    get isCheckedOut() {
+      return this._isCheckedOut;
+    }
 
-
+    get ratings() {
+      return this._ratings;
+    }
 
 
 
