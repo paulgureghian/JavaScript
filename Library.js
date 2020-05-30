@@ -12,4 +12,27 @@ class Media {
         this._isCheckedOut = false;
         this._ratings = [];
     }
+
+    get title() {
+      return this._title; 
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
