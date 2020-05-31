@@ -35,7 +35,8 @@ class Media {
     this.isCheckedOut = !this.isCheckedOut;
   }
 
-
+  // Create a method 'getAverageRating'. //
+  
 
 
 
