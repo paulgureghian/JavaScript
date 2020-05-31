@@ -43,7 +43,8 @@ class Media {
     return ratingsSum / this.ratings.length;
   }
 
-
+  // Create a method 'addRating'. //
+  
 
 
 
