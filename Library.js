@@ -60,10 +60,13 @@ class Book extends Media {
   }
 
   // Add 'getters'. //
-  
+  get author() {
+    this._author = author;
+  }
 
-
-
+  get pages() {
+    this._pages = this.pages;
+  }
 }
 
 
