@@ -50,4 +50,19 @@ class Media {
   }
 }
 
+// Add a sub-class named 'Book'. //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // End of program. //
