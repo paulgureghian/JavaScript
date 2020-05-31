@@ -36,7 +36,12 @@ class Media {
   }
 
   // Create a method 'getAverageRating'. //
-  
+  getAverageRating() {
+
+    let ratingsSum = this.ratings.reduce((accumulator, rating) => accumulator + rating);
+    
+    return ratingsSum / this.ratings.length;
+  }
 
 
 
