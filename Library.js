@@ -71,7 +71,17 @@ class Book extends Media {
 
 // Add a sub-class named 'Movie'. //
 class Movie extends Media {
+
+  constructor(director, title, runtime) {
+    super(title);
+    this._director = director;
+    this._runtime = runtime;
+  }
+
   
+
+
+
 }
 
 
