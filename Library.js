@@ -32,7 +32,7 @@ class Media {
 
   // Create a method 'toggleCheckOutStatus'. //
   toggleCheckOutStatus() {
-    
+    this.isCheckedOut = !this.isCheckedOut;
   }
 
 
