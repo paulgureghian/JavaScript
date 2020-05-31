@@ -30,7 +30,8 @@ class Media {
     return this._ratings;
   }
 
-
+  // Create a method 'toggleCheckOutStatus'. //
+  
 
 
 
