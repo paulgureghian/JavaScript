@@ -70,6 +70,9 @@ class Book extends Media {
 }
 
 // Add a sub-class named 'Movie'. //
+class Movie extends Media {
+  
+}
 
 
 
