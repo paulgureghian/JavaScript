@@ -78,7 +78,7 @@ class Movie extends Media {
     this._runtime = runtime;
   }
 
-  
+  // Add 'getters'. //
 
 
 
