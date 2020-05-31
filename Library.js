@@ -59,6 +59,8 @@ class Book extends Media {
     this._pages = pages;
   }
 
+  // Add 'getters'. //
+  
 
 
 
