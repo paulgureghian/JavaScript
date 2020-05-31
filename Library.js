@@ -51,7 +51,17 @@ class Media {
 }
 
 // Add a sub-class named 'Book'. //
+class Book extends Media {
+  
+  constructor(author, title, pages) {
+    super(title);
+    
+  }
 
+
+
+
+}
 
 
 
