@@ -31,7 +31,9 @@ class Media {
   }
 
   // Create a method 'toggleCheckOutStatus'. //
-  
+  toggleCheckOutStatus() {
+    
+  }
 
 
 
