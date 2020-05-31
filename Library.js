@@ -44,15 +44,10 @@ class Media {
   }
 
   // Create a method 'addRating'. //
-  
+  addRating(value) {
 
-
-
-
-
-
-
-
-
-
+    this.ratings.push(value);
+  }
 }
+
+// End of program. //
