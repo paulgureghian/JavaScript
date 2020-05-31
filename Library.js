@@ -13,13 +13,17 @@ class Media {
     this._ratings = [];
   }
 
-  // Create getters. //
+  // Create getters & setters. //
   get title() {
     return this._title; 
   } 
 
   get isCheckedOut() {
     return this._isCheckedOut;
+  }
+  
+  set isCheckedOut(value) {
+    this._isCheckedOut = value;
   }
 
   get ratings() {
