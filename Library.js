@@ -90,8 +90,8 @@ class Movie extends Media {
 }
 
 // Instantiate the 'Book' class. // 
-const historyOfEverything = new Book();
-
+const myBook = new Book('Paul Gureghian', 'I code JavaScript', 500);
+myBook.toggleCheckOutStatus();
 
 
 
