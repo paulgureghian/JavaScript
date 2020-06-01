@@ -97,7 +97,10 @@ myBook.toggleCheckOutStatus();
 // Log the value of 'isCheckedOut'. //
 console.log(myBook.isCheckedOut);
 
-
+// Add ratings. //
+myBook.addRating(4);
+myBook.addRating(5);
+myBook.addRating(5);
 
 
 // End of program. //
