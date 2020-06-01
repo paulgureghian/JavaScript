@@ -102,5 +102,6 @@ myBook.addRating(4);
 myBook.addRating(5);
 myBook.addRating(5);
 
+// Log 'AverageRating'. //
 
 // End of program. //
