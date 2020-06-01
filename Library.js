@@ -95,6 +95,7 @@ myBook.toggleCheckOutStatus();
 
 
 // Log the value of 'isCheckedOut'. //
+console.log(myBook.isCheckedOut);
 
 
 
