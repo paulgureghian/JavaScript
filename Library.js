@@ -94,7 +94,7 @@ const myBook = new Book('Paul Gureghian', 'I code JavaScript', 500);
 myBook.toggleCheckOutStatus();
 
 
-
+// Log the value of 'isCheckedOut'. //
 
 
 
