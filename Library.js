@@ -106,6 +106,7 @@ myBook.addRating(5);
 console.log(myBook.getAverageRating());
 
 // Instantiate the 'Movie' class. //
-
+const myMovie = Movie('Paul Gureghian', 'My story', 117);
+myMovie.toggleCheckOutStatus();
 
 // End of program. //
