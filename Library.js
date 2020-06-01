@@ -90,7 +90,7 @@ class Movie extends Media {
 }
 
 // Instantiate the 'Book' class. // 
-
+const historyOfEverything = new Book();
 
 
 
