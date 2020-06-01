@@ -109,4 +109,15 @@ console.log(myBook.getAverageRating());
 const myMovie = Movie('Paul Gureghian', 'My story', 117);
 myMovie.toggleCheckOutStatus();
 
+// Log the value of 'isCheckedOut'. //
+
+
+
+
+
+
+
+
+
+
 // End of program. //
