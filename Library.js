@@ -105,7 +105,7 @@ myBook.addRating(5);
 // Log 'AverageRating'. //
 console.log(myBook.getAverageRating());
 
-
+// Instantiate the 'Movie' class. //
 
 
 // End of program. //
