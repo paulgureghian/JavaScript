@@ -112,7 +112,10 @@ myMovie.toggleCheckOutStatus();
 // Log the value of 'isCheckedOut'. //
 console.log(myMovie.isCheckedOut);
 
-
+// Add ratings. //
+myMovie.addRating(4);
+myMovie.addRating(5);
+myMovie.addRating(6);
 
 
 
