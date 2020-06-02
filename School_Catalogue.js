@@ -12,7 +12,7 @@ class School {
     this._numberOfStudents = numberOfStudents;
   }
 
-  // Create getters. //
+  // Create getters & setters. //
 get name() {
   return this._name;  
 }
@@ -25,7 +25,16 @@ get numberOfStudents() {
   return this._numberOfStudents;
 }
 
-
+set numberOfStudents(number) {
+  
+    if(value.isNan()) {
+    console.log('Invalid input: numberOfStudents must be a number.');  
+  }
+  
+  else {
+    this._numberOfStudents = number;  
+  }
+}
 
 
 
