@@ -82,7 +82,7 @@
         "lines-around-comment": "error",
         "lines-around-directive": "error",
         "lines-between-class-members": "error",
-        "max-classes-per-file": "error",
+        "max-classes-per-file": "off",
         "max-depth": "error",
         "max-len": "off",
         "max-lines": "error",
@@ -99,7 +99,7 @@
         "new-cap": "error",
         "new-parens": "error",
         "newline-after-var": [
-            "error",
+            "off",
             "always"
         ],
         "newline-before-return": "error",
@@ -172,7 +172,7 @@
         "no-restricted-modules": "error",
         "no-restricted-properties": "error",
         "no-restricted-syntax": "error",
-        "no-return-assign": "error",
+        "no-return-assign": "off",
         "no-return-await": "error",
         "no-script-url": "error",
         "no-self-compare": "error",
