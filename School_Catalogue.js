@@ -12,7 +12,7 @@ class School {
     this._numberOfStudents = numberOfStudents;
   }
 
-  
+  // Create getters. //
 
 
 
