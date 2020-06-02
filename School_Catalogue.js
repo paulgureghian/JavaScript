@@ -4,3 +4,18 @@
 // Start of program. //
 
 // Create a 'School' parent class. //
+class School {
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
