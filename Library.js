@@ -117,10 +117,7 @@ myMovie.addRating(4);
 myMovie.addRating(5);
 myMovie.addRating(6);
 
-
-
-
-
-
+// Log 'AverageRating'. //
+console.log(myMovie.getAverageRating());
 
 // End of program. //
