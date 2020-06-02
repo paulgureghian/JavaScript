@@ -6,7 +6,9 @@
 // Create a 'School' parent class. //
 class School {
 
-
+  constructor(name, level, numberOfStudents) {
+      
+  }
 
 
 
