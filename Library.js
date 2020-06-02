@@ -61,11 +61,11 @@ class Book extends Media {
 
   // Add 'getters'. //
   get author() {
-    this._author = author;
+    return this._author;
   }
 
   get pages() {
-    this._pages = this.pages;
+    return this._pages;
   }
 }
 
@@ -105,7 +105,7 @@ myBook.addRating(5);
 console.log(myBook.getAverageRating());
 
 // Instantiate the 'Movie' class. //
-const myMovie = Movie('Paul Gureghian', 'My story', 117);
+const myMovie = new Movie('Paul Gureghian', 'My story', 117);
 myMovie.toggleCheckOutStatus();
 
 // Log the value of 'isCheckedOut'. //
