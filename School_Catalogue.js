@@ -37,6 +37,8 @@ set numberOfStudents(number) {
 }
 
 // Create a method named 'quickFacts. //
-
+quickFacts() {
+  
+}
 
 }
