@@ -48,6 +48,8 @@ static pickSubstituteTeacher(substituteTeachers) {
   return substituteTeachers[randInt];
 }
 
+// Create 'PrimarySchool' class. //
+
 
 
 
