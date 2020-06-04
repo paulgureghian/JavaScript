@@ -13,19 +13,19 @@ class School {
   }
 
   // Create getters & setters. //
-get name() {
-  return this._name;  
-}
+  get name() {
+    return this._name;  
+  }
 
-get level() {
-  return this._level;
-}
+  get level() {
+    return this._level;
+  }
 
-get numberOfStudents() {
-  return this._numberOfStudents;
-}
+  get numberOfStudents() {
+    return this._numberOfStudents;
+  }
 
-set numberOfStudents(number) {
+  set numberOfStudents(number) {
   
     if(value.isNan()) {
     console.log('Invalid input: numberOfStudents must be a number.');  
@@ -36,21 +36,25 @@ set numberOfStudents(number) {
   }
 }
 
-// Create a method named 'quickFacts. //
-quickFacts() {  
-  console.log(`${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level`)
-}
+  // Create a method named 'quickFacts. //
+  quickFacts() {  
+    console.log(`${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level`)
+  }
 
-// Add a static method. //
-static pickSubstituteTeacher(substituteTeachers) {
+  // Add a static method. //
+  static pickSubstituteTeacher(substituteTeachers) {
 
-  const randInt = Math.floor(Math.random() * substituteTeachers.length);
-  return substituteTeachers[randInt];
+    const randInt = Math.floor(Math.random() * substituteTeachers.length);
+    return substituteTeachers[randInt];
+  }
 }
 
 // Create 'PrimarySchool' class. //
 class PrimarySchool extends School {
-  
+
+  constructor(name, numberOfStudents, pickupPolicy){
+
+  }
 }
 
 
@@ -78,4 +82,3 @@ class PrimarySchool extends School {
 
 
 
-}
