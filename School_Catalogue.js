@@ -45,7 +45,7 @@ quickFacts() {
 static pickSubstituteTeacher(substituteTeachers) {
 
   const randInt = Math.floor(Math.random() * substituteTeachers.length);
-
+  return substituteTeachers[randInt];
 }
 
 
