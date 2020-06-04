@@ -42,7 +42,9 @@ quickFacts() {
 }
 
 // Add a static method. //
-
+static pickSubstituteTeacher(substituteTeacher) {
+  
+}
 
 
 
