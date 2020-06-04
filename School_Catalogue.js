@@ -49,7 +49,9 @@ static pickSubstituteTeacher(substituteTeachers) {
 }
 
 // Create 'PrimarySchool' class. //
-
+class PrimarySchool extends School {
+  
+}
 
 
 
