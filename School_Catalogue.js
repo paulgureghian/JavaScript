@@ -57,6 +57,21 @@ class PrimarySchool extends School {
     this._pickupPolicy = pickupPolicy;
 
   }
+    
+  // Create a 'getter'. //
+  
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
