@@ -42,8 +42,10 @@ quickFacts() {
 }
 
 // Add a static method. //
-static pickSubstituteTeacher(substituteTeacher) {
-  
+static pickSubstituteTeacher(substituteTeachers) {
+
+  const randInt = Math.floor(Math.random() * substituteTeachers.length);
+
 }
 
 
