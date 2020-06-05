@@ -62,19 +62,22 @@ class PrimarySchool extends School {
   get pickupPolicy() {
     return this._pickupPolicy;
   }
+}
 
-  // Create 'HighSchool' class. // 
-  
-
-
-
-
-
-
-
-
+// Create 'HighSchool' class. // 
+class HighSchool {
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
