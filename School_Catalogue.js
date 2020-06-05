@@ -87,8 +87,10 @@ Bassett.quickFacts();
 const sub = School.pickSubstituteTeacher(['Joe', 'Lou', 'Jim', 'James', 'Jason', 'Manu']);
 
 // Instantiate the 'HighSchool' class. //
+const Birmingham = new HighSchool('Birmingham', 600, ['Baseball', 'Basketball', 'Football', 'Hockey']);
 
-
+// Log the value of 'sportsTeams' in 'Birmingham'. //
+console.log(Birmingham.sportsTeams); 
 
 
 
