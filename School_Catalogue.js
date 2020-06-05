@@ -71,6 +71,11 @@ class HighSchool extends School {
     this._sportsTeams = sportsTeams;
   }
 
+  // Create a 'getter'. //
+  
+
+
+
 
 }
 
