@@ -83,8 +83,8 @@ const Bassett = new PrimarySchool('Bassett', 500, 'Students must be picked up by
 // Call '.quickFacts()' on the 'Bassett' instance. //
 Bassett.quickFacts();
 
-// Call '.pickSubstituteTeacher' on 'School. //
-
+// Call '.pickSubstituteTeacher' on 'School'. //
+const sub = School.pickSubstituteTeacher(['Joe', 'Lou', 'Jim', 'James', 'Jason', 'Manu']);
 
 
 
