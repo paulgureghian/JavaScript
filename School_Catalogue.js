@@ -92,31 +92,4 @@ const Birmingham = new HighSchool('Birmingham', 600, ['Baseball', 'Basketball', 
 // Log the value of 'sportsTeams' in 'Birmingham'. //
 console.log(Birmingham.sportsTeams); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// End of program. //
