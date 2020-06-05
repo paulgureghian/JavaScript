@@ -75,12 +75,9 @@ class HighSchool extends School {
   get sportsTeams() {
     return this._sportsTeams;
   }
-
-
-
-
 }
 
+// Instantiate the 'PrimarySchool' class. //
 
 
 
