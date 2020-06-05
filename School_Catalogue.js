@@ -86,6 +86,7 @@ Bassett.quickFacts();
 // Call '.pickSubstituteTeacher' on 'School'. //
 const sub = School.pickSubstituteTeacher(['Joe', 'Lou', 'Jim', 'James', 'Jason', 'Manu']);
 
+// Instantiate the 'HighSchool' class. //
 
 
 
