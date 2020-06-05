@@ -80,6 +80,8 @@ class HighSchool extends School {
 // Instantiate the 'PrimarySchool' class. //
 const Bassett = new PrimarySchool('Bassett', 500, 'Students must be picked up by a parent.');
 
+// Call '.quickFacts()' on the 'Bassett' instance. //
+
 
 
 
