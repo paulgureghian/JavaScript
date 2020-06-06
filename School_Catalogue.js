@@ -27,7 +27,7 @@ class School {
 
   set numberOfStudents(number) {
   
-    if(value.isNan()) {
+    if (number.isNan()) {
     console.log('Invalid input: numberOfStudents must be a number.');  
   }
   
@@ -38,7 +38,7 @@ class School {
 
   // Create a method named 'quickFacts. //
   quickFacts() {  
-    console.log(`${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level`)
+    console.log(`${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level`);
   }
 
   // Add a static method. //
@@ -52,7 +52,7 @@ class School {
 // Create 'PrimarySchool' class. //
 class PrimarySchool extends School {
 
-  constructor(name, numberOfStudents, pickupPolicy){
+  constructor(name, numberOfStudents, pickupPolicy) {
     super(name, 'primary', numberOfStudents);
     this._pickupPolicy = pickupPolicy;
   }
